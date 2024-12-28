@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400; 
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+}
+
+body {
+    font-family: 'Open Sans';
+    background: linear-gradient(to right, #10cb3c, #ffffff, #10cb3c);
+    margin: 0;
+    padding: 0;
+}
+
+.sign-up {
+    width: 80%;
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sign-up h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.input-first-name input,
+.input-last-name input,
+.input-username input,
+.input-email input,
+.input-password input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #10cb3c;
+    border-radius: 5px;
+    outline: none;
+    text-align: left;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #10cb3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.text {
+    color: #111111
+}
+
+.text a {
+    color: #10cb3c
+}
+
+button:hover {
+    background-color: #0eae0e;
+}

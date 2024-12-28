@@ -1,0 +1,67 @@
+{
+  "userInfo": [
+    {
+      "firstname": "Aisha",
+      "lastname": "Brown",
+      "username": "aishabrown12",
+      "email": "aishabrown9876@gmail.com",
+      "password": "123",
+      "reviews": [
+        {
+          "businessName": "Organic Haven",
+          "businessType": "Grocery Store",
+          "text": "Proud to announce their commitment to zero-waste packaging! Let's work together for a greener future.",
+          "time": "2 months ago",
+          "greenrating": 4.7,
+          "subratings": {
+            "Waste Management": 4.0,
+            "Ethical Sourcing": 4.2
+          },
+          "likes": 90,
+          "replies": 27,
+          "saves": 21
+        },
+        {
+          "businessName": "GreenEats",
+          "businessType": "Restaurant",
+          "text": "Visited GreenEats last night - loved their commitment to local sourcing and reducing food waste. Great atmosphere too!",
+          "time": "1 week ago",
+          "greenrating": 4.5,
+          "subratings": {
+            "Waste Management": 4.1,
+            "Ethical Sourcing": 4.4
+          },
+          "likes": 51,
+          "replies": 12,
+          "saves": 15
+        }
+      ],
+      "image": "resources/aisha.jpeg"
+    },
+
+    {
+      "firstname": "Joe",
+      "lastname": "Johnson",
+      "username": "Joe1",
+      "email": "joe@gmail.com",
+      "password": "123",
+      "reviews": [
+        {
+          "businessName": "EcoWear",
+          "businessType": "Clothing Shop",
+          "text": "Love the eco-friendly fabric choices at EcoWear! A must-visit for conscious fashion enthusiasts.",
+          "time": "2 days ago",
+          "greenrating": 4.8,
+          "subratings": {
+            "Waste Management": 4.5,
+            "Ethical Sourcing": 4.9
+          },
+          "likes": 155,
+          "replies": 30,
+          "saves": 72
+        }
+      ],
+      "image": "resources/joe1.jpeg"
+    }
+  ]
+}

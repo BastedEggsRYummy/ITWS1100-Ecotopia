@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ecotopia - Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div class="log-in">
+        <h1>Ecotopia</h1>
+        <p>Connect with locals and business around you on Ecotopia</p>
+
+        <form onsubmit="logIn(); return false;">
+            <div class="input-group">
+                <label for="username">Username/Email:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <div class="extra-links">
+            <a href="password.html">Forgot password?</a>
+            <span> | </span>
+            <a href="signup.html">New to Ecotopia? Sign up Here</a>
+        </div>
+    </div>
+
+    <script src="users.js" defer></script> 
+</body>
+
+</html>

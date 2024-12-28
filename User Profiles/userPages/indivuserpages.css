@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background: #5dbb63;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004d40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.business-name-handle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.business-name-handle h1 {
+    margin-right: 10px;
+}
+
+.business-details,
+.subratings,
+.similar-companies,
+.person-image {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #004d40;
+    margin-bottom: 10px;
+}
+
+.business-details p,
+.subratings p {
+    margin-bottom: 10px;
+}
+
+#personImage {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.subcategory{
+    color: #004d40;
+    font-weight:bold;
+    display: inline-block;
+}
+
+#logo {
+    width: 10%;
+  }
+
+
+.review {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .review h3 {
+    margin-top: 0;
+  }
+  
+  .review p {
+    margin-bottom: 5px;
+  }
+  
+
+  .user-reviews {
+    margin-top: 20px;
+  }
+  
+  .reviewtitlefirstname{
+    display: inline;
+  }
+
+  .reviewtitleusername{
+    display: inline;
+    font-size: smaller;
+  }

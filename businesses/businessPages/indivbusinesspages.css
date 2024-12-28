@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background: #5dbb63;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004d40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.business-name-handle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    float: left; width: 40%;
+}
+
+.business-name-handle h1 {
+    margin-right: 10px;
+}
+
+.business-details,
+.subratings,
+.similar-companies,
+.business-image,
+.business-GreenRating {
+    margin-bottom: 30px;
+}
+
+
+h2 {
+    color: #004d40;
+    margin-bottom: 10px;
+}
+
+.business-details p,
+.subratings p {
+    margin-bottom: 10px;
+}
+
+
+.business-GreenRating{
+    float: right; width: 30%;
+    display: block;
+    margin-bottom: 0;
+}
+
+#businessGreenRatingtext{
+    color: #5dbb63;
+}
+
+#businessGreenRating{
+    margin-top: 0;
+    color: #004d40;
+}
+
+
+.review-form{
+    float: right; width: 30%;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex; 
+    align-items: center;
+}
+
+.form-group label {
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.form-group input, .form-group textarea {
+    width: 11%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-group textarea {
+    width: 60%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.submit-button {
+    background-color: #004d40;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    transition: background-color 0.3s;
+    background-color: #0eae0e;
+}
+
+#businessImage {
+    max-width: 20%;
+    border-radius: 5px;
+    display: block;
+}
+
+.subcategory{
+    color: #004d40;
+    font-weight:bold;
+    display: inline-block;
+}
+
+.subratings{
+    float: right;
+    width: 1%;
+    margin-top: 45px;
+}
+.subratingcategory{
+    color: #004d40;
+    font-weight:bold;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#wasteManagement,
+#ethicalSourcing{
+    color: #5dbb63;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#logo {
+    width: 10%;
+  }

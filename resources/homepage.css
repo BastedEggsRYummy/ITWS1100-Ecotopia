@@ -1,0 +1,379 @@
+/* Resetting some default styles */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f8fa;
+  color: #14171a;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 20px; 
+  display: flex;
+  flex-wrap: wrap;
+  background: url("rand2.jpg");
+  background-size: cover;
+  }
+
+.container {
+  flex-direction: column;
+}
+
+.header-nav-container {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e1e8ed;
+  border: #14171a;
+  border-radius: 10px;
+  padding: 10px 0;
+  text-align: center;
+  box-shadow: 0px 1px 3px rgba(27, 31, 35, 0.1);
+  width: 15%;
+  position: sticky;
+}
+
+.header-nav-container img {
+  width: 100px;
+  height: auto;
+}
+
+.header-nav-container ul li #homepage-icon{
+  border-radius: 50%;
+}
+
+nav {
+  background-color: #ffffff;
+  border-right: 1px solid #e1e8ed;
+  padding: 20px 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  text-align: left;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+nav li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-nav-container ul li img {
+  max-width: 50px;
+  height: auto;
+  padding-right: 5%;
+}
+
+nav ul li p{
+  width: fit-content;
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.profile {
+  background-color: #ffffff;
+  padding: 20px 10px;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.profile #profile-picture {
+  width: auto;
+  padding-right: 5%;
+}
+
+.profile #profile-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.profile #profile-info #Displayname {
+  width: 100%;;
+}
+
+.profile #profile-info #Username {
+  width: 100%;;
+}
+
+.profile img {
+  max-width: 50px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.posts {
+  flex-grow: 1;
+  margin: 0 20px;
+  width: 55%;
+  padding: 10px;
+  border: solid;
+  border-top-style: none;
+  border-bottom-style: none;
+  border-left-color: gray;
+  border-right-color: gray;
+  border-width: 10px;
+}
+
+.post {
+  background-color: #ffffff;
+  border: 1px solid green;
+  margin-bottom: 20px;
+  padding: 15px;
+
+  border: solid;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-color: gray;
+  border-bottom-color: gray;
+  border-width: 5px;
+}
+
+.post .user-avatar {
+  float: left;
+  margin-right: 10px;
+}
+
+.post .user-avatar img {
+  max-width: 50px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.post .post-content ul{
+  overflow: hidden;
+  list-style: none;
+  align-items: end;
+  text-align: left;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.post .post-content ul li{
+  overflow: hidden;
+  padding-right: 2%;
+  display: inline;
+}
+
+.post .post-content ul .displayname {
+  font-weight: bold;
+}
+
+.post .post-content ul .username {
+}
+
+.post .post-content ul .time-posted {
+}
+
+.post .post-content p {
+  margin: 5px 0;
+}
+
+.articles {
+  flex-grow: 1;
+}
+
+.article {
+  background-color: #ffffff;
+  border: 1px solid green;
+  margin-bottom: 20px;
+  padding: 15px;
+
+  border: solid;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-color: gray;
+  border-bottom-color: gray;
+  border-width: 5px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.article .article-avatar {
+  float: right;
+  margin-right: 10px;
+}
+
+.article .article-avatar img {
+  max-width: 50px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.article .article-content ul{
+  overflow: hidden;
+  list-style: none;
+  align-items: end;
+  text-align: left;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.article .article-content ul li{
+  overflow: hidden;
+  padding-right: 2%;
+  display: inline;
+}
+
+.article .article-content ul .article-title {
+  font-weight: bold;
+}
+
+.article .article-content ul .time-posted {
+}
+
+.article .article-content p {
+  margin: 5px 0;
+}
+
+
+.article .article-tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.article .article-tags .article-tag img {
+  max-width: 50px;
+  height: auto;
+  border-radius: 50%;
+}
+
+
+
+
+
+.search-container {
+  background-color: #ffffff;
+  border-left: 1px solid #e1e8ed;
+  padding: 20px 10px;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.search-container input[type="text"] {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.logout-button {
+  margin-right: auto; 
+  margin-top: 20px; 
+}
+
+.logout-button button {
+  background-color: #ffffff;
+  border: 1px solid #14171a;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button button:hover {
+  background-color: #f0f0f0;
+}
+
+#create-post {
+  background-color: yellowgreen;
+  border: 1px solid green;
+  margin-bottom: 20px;
+  padding: 15px;
+
+  border: solid;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-color: green;
+  border-bottom-color: green;
+  border-width: 5px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+#create-post #new-post {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+#create-post #new-post button{
+  width: 20%;
+}
+
+#create-post #create-post-content {
+  min-height: 50px;
+  height: fit-content;
+  max-height: max-content;
+  max-width: 100%;
+  background-color: lightgray;
+  overflow: auto;
+  resize: vertical;
+  width: 80%;
+}
+
+#create-post .user-avatar {
+  float: left;
+  margin-right: 10px;
+}
+
+#create-post .user-avatar img {
+  max-width: 50px;
+  height: auto;
+  border-radius: 50%;
+}
+
+#create-post .post-content ul{
+  overflow: hidden;
+  list-style: none;
+  align-items: end;
+  text-align: left;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+#create-post .post-content ul li{
+  overflow: hidden;
+  padding-right: 2%;
+  display: inline;
+}
+
+#create-post .post-content ul .displayname {
+  font-weight: bold;
+}
+
+#create-post .post-content ul .username {
+}
+
+#create-post .post-content ul .time-posted {
+}
+
+#create-post .post-content p {
+  margin: 5px 0;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecotopia</title>
+  <link rel="stylesheet" href="Usersearch.css">
+  <script type="text/javascript" src="resources/jquery-3.1.1.min.js"></script>
+  <script src="userSearch.js"></script>
+  
+</head>
+
+<body>
+    <div id="searching">
+        <div id="inputandbutton">
+          <h1 id="maintitle">Search Users</h1>
+
+            <input type="text" id="searchInput" placeholder="Search by name or username">
+            <button onclick="search()">Search</button>
+        </div>
+    
+        <div id="searchResults"></div>
+
+    </div>
+    
+    <div class="container header-nav-container">
+      <a href="../homepage.html" id="logo"><img src="../resources/images/logos/logo3.png" alt="Ecotopia Logo"></a>
+        <nav>
+          <ul>
+            <li for="homepage-link">
+              <img src="resources/homepage-icon.png" alt="Home page" id="homepage-icon">
+              <a href="../homepage.html" id="homepage-link">Home</a>
+            </li>
+            <li>
+              <img src="resources/buildings.png" alt="Search Businesses">
+              <a href="../businesses/search.html" id="search-link">Search Businesses</a>
+            </li>
+            <li>
+              <img src="resources/map.jpg" alt="Map">
+              <a href="../Map/map.html" id="map-link">Map</a>
+            </li>
+            <li>
+              <img src="resources/bell.webp" alt="Notifications">
+              <a href="#" id="search-link">Notifications</a>
+            </li>
+            <li>
+              <img src="resources/examplepfp.jpg" alt="Lists">
+              <a href="#" id="search-link">Lists</a>
+            </li>
+            <li>
+              <img src="resources/examplepfp.jpg" alt="People">
+              <a href="#" id="search-link">People</a>
+            </li>
+            <li>
+              <img src="resources/threedots.jpg" alt="More">
+              <a href="#" id="search-link">More</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="profile">
+          <div id="profile-picture">
+            <img src="resources/examplepfp.jpg" alt="Profile Picture">
+          </div>
+          <div id="profile-info">
+            <p id = "Displayname">Display Name</p>
+            <p id = "Username">Username</p>
+          </div>
+        </div>
+      </div>
+      
+      
+
+
+  <script>
+    // Add event listener to input field to listen for Enter key press
+    document.getElementById("searchInput").addEventListener("keypress", function(event) {
+      // Check if the pressed key is the Enter key (key code 13)
+      if (event.keyCode === 13) {
+        // Call the search function
+        search();
+      }
+    });
+
+  const loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
+
+  if (loggedInUser) {
+      document.getElementById('Displayname').textContent = loggedInUser.firstname + " " + loggedInUser.lastname;
+      document.getElementById('Username').textContent = "@" + loggedInUser.username;
+  }
+
+  function logout() {
+    localStorage.removeItem('userData');
+    window.location.href = "Login Pages/Login.html";
+  }
+
+  </script>
+
+
+</body>
+</html>

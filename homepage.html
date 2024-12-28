@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="resources/homepage.css">
+<script type="text/javascript" src="resources/jquery-3.7.1.min.js"></script>
+<script type="text/javascript" src="resources/jquery-ui-1.13.2/jquery-ui.min.js"></script>
+<script type="text/javascript" src="resources/topArticleFinder.js"></script>
+<script type="text/javascript" src="resources/loadPosts.js"></script>
+<link rel="stylesheet" href="resources/jquery-ui-1.13.2/jquery-ui.theme.min.css">
+<link rel="stylesheet" href="resources/jquery-ui-1.13.2/jquery-ui.structure.min.css">
+<title>Ecotopia Homepage</title>
+</head>
+
+<body>
+
+<div class="container header-nav-container">
+  <a href="#"><img src="resources/images/logos/logo3.png" alt="Ecotopia Logo"></a>
+  <nav>
+    <ul>
+      <a href="#" id="homepage-link"><li>
+        <img src="resources/images/navigation bar/homepage-icon.png" alt="Home page" id="homepage-icon">
+        <p>Home</p>
+      </li></a>
+      <a href="businesses/search.html"><li>
+        <img src="resources/images/navigation bar/buildings.png" alt="Search Businesses">
+        <p>Search Businesses</p>
+      </li></a>
+      <a href="Map/map.html"><li>
+        <img src="resources/images/navigation bar/map.jpg" alt="Map">
+        <p>Map</p>
+      </li></a>
+      <a href="#"><li>
+        <img src="resources/images/navigation bar/bell.webp" alt="Notifications">
+        <p>Notifications</p>
+      </li></a>
+      <a href="#"><li>
+        <img src="resources/images/navigation bar/examplepfp.jpg" alt="Lists">
+        <p>Lists</p>
+      </li></a>
+      <a href="User Profiles/userSearch.html"><li>
+        <img src="resources/images/navigation bar/examplepfp.jpg" alt="People">
+        <p>People</p>
+      </li></a>
+      <a href="#"><li>
+        <img src="resources/images/navigation bar/threedots.jpg" alt="More">
+        <p>More</p>
+      </li></a>
+    </ul>
+  </nav>
+  <div class="profile">
+    <div id="profile-picture">
+      <img src="resources/images/navigation bar/examplepfp.jpg" alt="Profile Picture">
+    </div>
+    <div id="profile-info">
+      <p id = "Displayname">Display Name</p>
+      <p id = "Username">Username</p>
+    </div>
+  </div>
+  <div class="logout-button">
+    <button onclick="logout()">Logout</button>
+  </div>
+</div>
+
+<div class="container posts">
+  <div id="create-post">
+    <div class="user-avatar">
+      <img src="resources/images/navigation bar/examplepfp.jpg" alt="User Avatar">
+    </div>
+    <form id="new-post" name="new-post" action="#" method="post" onsubmit="return addNewPost(this);">
+      <label id="create-new-post-content-label" for="create-post-content">Create your own post!</label>
+      <textarea type="text" value="" name="create-post-content" id = "create-post-content"></textarea>
+      <button type="submit">Post</button>
+    </form>
+  </div>
+  <div id = "all-posts"></div>
+</div>
+
+<div class="container search-container">
+  <form id="search-articles" name="search-articles" action="#" method="post" onsubmit="return updateArticles(this);">
+    <div id="search-bar ui-widget">
+      <input id="search-bar-text"type="text" placeholder="Search...">
+      <button>Search</button>
+    </div>
+  </form>
+  <div id="top-articles"></div>
+</div>
+
+<script>
+  const loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
+
+  if (loggedInUser) {
+    document.getElementById('Displayname').textContent = loggedInUser.firstname + " " + loggedInUser.lastname;
+    document.getElementById('Username').textContent = "@" + loggedInUser.username;
+  }
+
+  function logout() {
+    localStorage.removeItem('userData');
+    window.location.href = "Login Pages/Login.html";
+  }
+</script>
+
+</body>
+</html>

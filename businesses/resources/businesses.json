@@ -1,0 +1,263 @@
+{
+   "businesses": [
+     {
+       "name": "Ali Baba",
+       "id": "alib1",
+       "handle": "@AliBaba",
+       "category": "Mediterranean Restaurant",
+       "address": "2243 15th St, Troy, NY 12180",
+       "greenrating": 4.5,
+       "description": "Kebabs, unique pizzas & other Mediterranean fare served in compact, modest quarters.",
+       "subratings": {
+         "Waste Management": 4.0,
+         "Ethical Sourcing": 4.2,
+         "Carbon Emissions": 4.8
+       },
+       "companies": [
+         {
+           "name": "The Greek House",
+           "handle": "@theGreekHouse",
+           "greenrating": 4.4
+         },
+         {
+           "name": "Kismet Mediterranean Grill",
+           "handle": "@KismetMediterraneanGrill",
+           "greenrating": 4.4
+         },
+         {
+           "name": "The Kebab Zone",
+           "handle": "@TheKebabZone",
+           "greenrating": 4.2
+         },
+         {
+           "name": "Tara Kitchen",
+           "handle": "@TaraKitchen",
+           "greenrating": 4.1
+         },
+         {
+           "name": "Mamoun's Restaurant",
+           "handle": "@Mamouns",
+           "greenrating": 4.0
+         }
+       ],
+       "image": "images/alibaba.jpeg"
+     },
+
+
+     {
+      "name": "Star Grocery Store",
+      "id": "starg2",
+      "handle": "@StarGroceryStore",
+      "category": "Grocery Store",
+      "address": "3001 6th Ave, Troy, NY 12180",
+      "greenrating": 4.6,
+      "description": "Star Grocery in Troy, NY is a small but well-stocked store that offers a wide variety of products to meet all your home needs. With friendly and helpful staff, this conveniently located store provides delicious food and a clean shopping environment, making it a must-visit destination for both locals and visitors.",
+      "subratings": {
+        "Waste Management": 4.1,
+        "Ethical Sourcing": 4.7,
+        "Carbon Emissions": 4.0
+      },
+      "companies": [
+        {
+          "name": "4 Star Grocery",
+          "handle": "@4stargrocery",
+          "greenrating": 4.7
+        },
+        {
+          "name": "4 Corner Grocery Store",
+          "handle": "@4CornerGroceryStore",
+          "greenrating": 4.5
+        },
+        {
+          "name": "Troy Five Star Grill Deli & Food Mart",
+          "handle": "@troyfivestar",
+          "greenrating": 4.3
+        },
+        {
+          "name": "Perfect Mart",
+          "handle": "@perfectmart",
+          "greenrating": 4.2
+        },
+        {
+          "name": "4th Street Market",
+          "handle": "@4thstreetmarket",
+          "greenrating": 3.9
+        }
+      ],
+      "image": "images/stargrocery.jpeg"
+    },
+
+    {
+      "name": "Ekologic",
+      "id": "ekol3",
+      "handle": "@Ekologic",
+      "category": "Clothing Store",
+      "address": "184 4th St, Troy, NY 12180",
+      "greenrating": 4.3,
+      "description": "Welcome to ekologic. We craft beautiful, functional and comfortable clothing upon a foundation of environmental responsibility, purpose and values. Each piece of apparel is rethought, reconstructed and refined to create a unique work of inspired design—clothing that transforms our customers, respects our natural world and challenges the traditional tenets of consumptive fashion.",
+      "subratings": {
+        "Waste Management": 4.1,
+        "Ethical Sourcing": 4.9,
+        "Carbon Emissions": 4.1
+      },
+      "companies": [
+        {
+          "name": "Twilight Vintage Clothing",
+          "handle": "@TwilightVintageClothing",
+          "greenrating": 4.6
+        },
+        {
+          "name": "Truly Rhe",
+          "handle": "@TrulyRhe",
+          "greenrating": 4.4
+        },
+        {
+          "name": "Fire & Ash",
+          "handle": "@Fire&Ash",
+          "greenrating": 4.2
+        },
+        {
+          "name": "Marcus Blaque",
+          "handle": "@MarcusBlaque",
+          "greenrating": 4.1
+        },
+        {
+          "name": "Upstate of Mind",
+          "handle": "@UpstateofMind",
+          "greenrating": 3.7
+        }
+      ],
+      "image": "images/ekologic.jpeg"
+    },
+
+    {
+      "name": "Amante Pizza",
+      "id": "amantep4",
+      "handle": "@AmantePizza",
+      "category": "Pizza Restaurant",
+      "address": "2304 15th St, Troy, NY 12180",
+      "greenrating": 4.0,
+      "description": "Welcome to ekologic. We craft beautiful, functional and comfortable clothing upon a foundation of environmental responsibility, purpose and values. Each piece of apparel is rethought, reconstructed and refined to create a unique work of inspired design—clothing that transforms our customers, respects our natural world and challenges the traditional tenets of consumptive fashion.",
+      "subratings": {
+        "Waste Management": 3.9,
+        "Ethical Sourcing": 4.5,
+        "Carbon Emissions": 4.2
+      },
+      "companies": [
+        {
+          "name": "Big Apple Pizzeria",
+          "handle": "@BigApplePizzeria",
+          "greenrating": 4.5
+        },
+        {
+          "name": "La Casa De Pizzeria",
+          "handle": "@LaCasaDePizzeria",
+          "greenrating": 4.4
+        },
+        {
+          "name": "Dante's Pizzeria",
+          "handle": "@DantesPizzeria",
+          "greenrating": 4.3
+        },
+        {
+          "name": "Liberty Pizza",
+          "handle": "@LibertyPizza",
+          "greenrating": 4.3
+        },
+        {
+          "name": "Gino's Pizzeria & Fried Chicken",
+          "handle": "@Ginos",
+          "greenrating": 4.0
+        }
+      ],
+      "image": "images/amante.jpeg"
+    },
+
+    {
+      "name": "Mumu's Cafe",
+      "id": "mumusc5",
+      "handle": "@MumusCafe",
+      "category": "Cafe",
+      "address": "2207 15th St, Troy, NY 12180",
+      "greenrating": 4.5,
+      "description": "Mumu’s Pastry and Cafe start in 2020 first month. Mumu’s pastry bake Europe’s special desserts, all product homemade and keep fresh.",
+      "subratings": {
+        "Waste Management": 4.4,
+        "Ethical Sourcing": 4.0,
+        "Carbon Emissions": 4.0
+      },
+      "companies": [
+        {
+          "name": "Little Pecks",
+          "handle": "@LittlePecks",
+          "greenrating": 4.7
+        },
+        {
+          "name": "Common Crumb",
+          "handle": "@commoncrumb",
+          "greenrating": 4.5
+        },
+        {
+          "name": "Aroma Joe's",
+          "handle": "@aromajoes",
+          "greenrating": 4.2
+        },
+        {
+          "name": "The Whistling Kettle",
+          "handle": "@TheWhistlingKettle",
+          "greenrating": 4.1
+        },
+        {
+          "name": "Bard and Baker Board Game Cafe",
+          "handle": "@bardandbaker",
+          "greenrating": 3.8
+        }
+      ],
+      "image": "images/mumu.jpeg"
+    },
+
+    {
+      "name": "Market 32 Pharmacy",
+      "id": "market6",
+      "handle": "@market32",
+      "category": "Pharmacy",
+      "address": "716 Hoosick Rd, Troy, NY 12180",
+      "greenrating": 4.1,
+      "description": "The pharmacy at Market 32 Troy NY #3 is conveniently located inside the grocery store, making it easier to pick up all your health and wellness products, prescriptions and other household items in one trip.",
+      "subratings": {
+        "Waste Management": 4.4,
+        "Ethical Sourcing": 3.9,
+        "Carbon Emissions": 4.8
+      },
+      "companies": [
+        {
+          "name": "ConnectRx Pharmacy, Hometown",
+          "handle": "@connectrxhometown",
+          "greenrating": 4.6
+        },
+        {
+          "name": "Lindsay Drug Co",
+          "handle": "@lindsaydrug",
+          "greenrating": 4.4
+        },
+        {
+          "name": "Marra's Pharmacy",
+          "handle": "@marras",
+          "greenrating": 4.4
+        },
+        {
+          "name": "Price Chopper Pharmacy",
+          "handle": "@pricechopperpharma",
+          "greenrating": 4.1
+        },
+        {
+          "name": "Express Scripts Inc",
+          "handle": "@expressscriptsinc",
+          "greenrating": 4.0
+        }
+      ],
+      "image": "images/market32pharma.jpeg"
+    }
+   ]
+ }
+ 

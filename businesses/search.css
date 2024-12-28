@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background: url("../resources/rand2.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #logo {
+    color: #5dbb63;
+    text-decoration: none;
+  }
+
+  .headerlogo{
+    margin-bottom: 0;
+  }
+
+  #maintitle {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #inputandbutton{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+  }
+  
+  input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #00796b;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  button {
+    margin: 0 auto;
+    width: 40%;
+    padding: 10px;
+    background-color: #004d40;
+    color: #fff;
+    border: pink;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0eae0e;
+  }
+  
+  #searchResults {
+    margin-top: 20px;
+  }
+  
+  .dynamically-added {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 30px;
+    font-weight: bold;
+  }
+  
+  .dynamically-added:hover {
+    text-decoration: underline;
+  }
+
+  #searching {
+    float: right; width: 85%;
+  }
+  
+  .container {
+  flex-direction: column;
+}
+
+.header-nav-container {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e1e8ed;
+  border: #14171a;
+  border-radius: 10px;
+  padding: 10px 0;
+  text-align: center;
+  box-shadow: 0px 1px 3px rgba(27, 31, 35, 0.1);
+  /* width: 15%; */
+  position: sticky;
+  float: left; width: 15%
+}
+
+.header-nav-container img {
+  width: 100px;
+  height: auto;
+}
+
+.header-nav-container ul li img {
+  max-width: 50px;
+  height: auto;
+  padding-right: 5%;
+}
+
+.header-nav-container ul li #homepage-icon{
+  border-radius: 50%;
+}
+
+nav {
+  background-color: #ffffff;
+  border-right: 1px solid #e1e8ed;
+  padding: 20px 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  text-align: left;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+.profile {
+  background-color: #ffffff;
+  padding: 20px 10px;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.profile #profile-picture {
+  width: auto;
+  padding-right: 5%;
+}
+
+.profile #profile-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.profile #profile-info #Displayname {
+  width: 100%;;
+}
+
+.profile #profile-info #Username {
+  width: 100%;;
+}
+
+.profile img {
+  max-width: 50px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}

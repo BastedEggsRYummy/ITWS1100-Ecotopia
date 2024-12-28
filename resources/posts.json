@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "displayName": "Aisha",
+      "username": "aishabrown12",
+      "timePosted": "1m",
+      "postContent": "Just planted my first garden using local seeds! 🌱 Excited to grow my own veggies and reduce food miles. #Ecotopia #HomeGarden"
+    },
+
+    {
+      "displayName": "Thanh Ho",
+      "username": "Hot7",
+      "timePosted": "15m",
+      "postContent": "Exploring zero-waste shopping today! So many options to reduce single-use plastics. #ZeroWaste #EcoFriendly"
+    },
+
+    {
+      "displayName": "John Smith",
+      "username": "Johnsmith1111",
+      "timePosted": "40m",
+      "postContent": "Switching to reusable bags and containers has made a big difference in my daily routine. #ReduceReuseRecycle"
+    },
+
+    {
+      "displayName": "John Smith",
+      "username": "Johnsmith1111",
+      "timePosted": "2hr",
+      "postContent": "Tried an electric bike today, and I'm hooked! Reducing my carbon footprint while staying active. #EcoFriendlyTransport #SustainableLiving"
+    }
+  ]
+}
